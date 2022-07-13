@@ -209,13 +209,11 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ## 4. Considerações gerais
 
-* A equipe de mentores te dará um tempo sugerido e indicações sobre trabalhar
-  individualmente ou em equipe. Lembre-se de que cada pessoa aprende em um ritmo
-  diferente.
-
-* O projeto será entregue subindo seu código no GitHub (commit/push) e a
-  interface será implementada usando as páginas do GitHub. Caso desconheça o
-  GitHub, não se preocupe, pois você vai aprender sobre ele ao longo do projeto.
+* Este projeto deve ser resolvido individualmente.
+* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
+  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
+  preocupe, você aprendera durante o projeto.
+* Tempo para completar: tempo referência 2 semanas.
 
 ## 5. Critérios mínimos de aceitação do projeto
 
