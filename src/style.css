@@ -8,31 +8,26 @@ body {
 	background-color:darkviolet;
 	font-family: 'Lato', sans-serif;
 }
-
-
 .titulo{
-    width: 90%;
-    max-width: 1000px;
-    padding: 40px 20px;
+    width: 100%;
     margin: auto;
     text-align: center;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mensagemCadastro{
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
-    padding: 40px 20px;
+    padding: 20px;
     margin: auto;
     text-align: center;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .conteudo{
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     padding: 40px 20px;
     margin: auto;
@@ -44,7 +39,7 @@ body {
     width: 100%;
     max-width: 550px;
     position: relative;
-    background-color:purple;
+    background-color: purple;
     color: antiquewhite;
     transition: .3s ease all;
     transform: rotateY(0deg);
@@ -66,21 +61,18 @@ body {
     box-shadow: 0 10px 10px 0 rgba(90,116,148,0.3);
 }
 
-.frente .logomarca{
-    text-align: right;
-    min-height: 50px;
+.chip-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.frente .logomarca img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    max-width: 80px;
 
+.frente .logomarca {
+    width: 100px;
 }
 .frente .chip{
-    width: 100%;
-    max-width: 50px;
-    margin-bottom: 20px;
+    width: 60px;
+    margin: 10px 10px;
 }
 
 .frente .grupo .cardLetters{
@@ -133,7 +125,7 @@ margin-bottom: 5px;
     background-color:white;
     width: 100%;
     max-width: 700px;
-    padding: 150px 30px 30px 30px;
+    padding: 150px 50px 30px 30px;
     border-radius: 10px;
     position: relative;
     top: -150px;
@@ -161,6 +153,7 @@ margin-bottom: 5px;
     width: 100%;
     padding: 5px 12px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 .formulario input:hover {
@@ -169,13 +162,11 @@ margin-bottom: 5px;
     box-shadow: 1px 7px 10px -5px rgba(90,116,148,0.3);
 }
 
-
 .formulario .validade {
 	max-width: 50%;
     display: grid;
     align-items: center;
 }
-
 
 .formulario .btnCadastrar {
 	border: none;
